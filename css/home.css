@@ -1,0 +1,188 @@
+/* 3 main fonts are used:
+- Yanone Kaffeesatz for headers
+- Georgia for main body text
+- Signpainter Housescript for assets
+*/
+
+body { 
+  background: white url(../images/bg-new.jpg) repeat-x center top;
+}
+h2 {
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-size: 2em;
+	color: #B2B2B2;
+	margin: 0 0 10px 0;
+	line-height: 100%;
+}
+p {
+	font-family: Georgia, Serif;
+	font-size: 1.3em;
+	line-height: 120%;
+}
+
+/* HEADER */
+#header {
+	background: url(../images/main-menu-bg.png) no-repeat left bottom;
+}
+#top-logo-container {
+	position: relative;
+	float: right;
+	height: 110px;
+}
+#top-logo {
+	position: absolute;
+	left: -200px;
+	z-index: 1;
+}
+
+/* MAIN MENU */
+#main-menu-container {
+	position: relative;
+}
+
+#main_menu {
+	position: absolute;
+	top: 70px;
+	left: 80px;
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-size: 22px;
+}
+#main_menu ul {
+	list-style-type: none;
+	list-style-position: inside;
+	color: #B2B2B2;
+	padding-left: 0px;
+}
+#main_menu ul li {
+	float: left;
+	padding-right: 15px;
+	padding-left: 10px;
+	background: url(../images/test.png) center right no-repeat;
+}
+#main_menu ul li.last {
+	background: none;
+	padding-right: 0px;
+}
+#main_menu li a {
+	padding: 0 0 3px 0;
+	text-decoration: none;
+	color: black;
+}
+#main_menu li a:hover {
+	background: url(../images/red-underscore.png) no-repeat bottom center;
+}
+
+/* LOCATIONS MENU */
+#locations_menu {
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-size: 22px;
+	color: #B2B2B2;
+}
+#locations_menu ul {
+	padding: 0px;
+	list-style-type: none;
+	list-style-position: inside;
+}
+#locations_menu ul li {
+	background: url(../images/dot.png) center left no-repeat;
+}
+#locations_menu ul li.first {
+	background: url(../images/click.png) center left no-repeat;
+}
+#locations_menu a {
+	padding: 0 0 0 78px;
+	text-decoration: none;
+	color: #B2B2B2;
+}
+
+/* SLIDER */
+#slider {
+    position:relative;
+    width:708px; /* Change this to your images width */
+    height:500px; /* Change this to your images height */
+    background:url(../images/loading.gif) no-repeat 50% 50%;
+	z-index: 0;
+}
+#slider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+#slider a {
+    border:0;
+    display:block;
+}
+
+/* MIDDLE ASSETS */
+.middle-asset-styling {
+	background: url(../images/main-bg.png) no-repeat left top;
+}
+.middle-asset-margins {
+	margin: 20px 0 75px 70px;
+}
+.big4 {
+	font-size: 2.5em;
+}
+p.resume { 
+	margin-left: 15px;
+}
+#intro-paragraph {
+	background: url(../images/vertical-text-slash.png) no-repeat left center;
+	margin: 0 0 0 50px;
+}
+#youtube-frame {
+	display: block;
+	text-align: center;
+	padding: 35px 0 0 0;
+	background: url(../images/youtube-frame.png) no-repeat;
+	width: 480px;
+	height: 420px;
+	float: right;
+}
+#location-container {
+	margin: 0 0 0 50px;
+}
+.tweet {
+	position: absolute;
+	left: -100px;
+	width: 125px;
+	height: 110px;
+	background: url(../images/twitter-bird.png) no-repeat 0 0;
+	overflow: hidden;  
+	text-indent: -10000px;
+}
+a.tweet:hover {
+	background-position: -125px 0;
+}
+
+/* RIGHT ASSETS */
+.right-asset-container {
+	position: relative;
+	float: right;
+}
+
+.right-asset-image {
+	position: absolute; left: -265px;
+}
+
+.first {
+	top: -370px;
+}
+
+.second {
+	top: -150px;
+}
+
+/* FOOTER */
+#footer {
+	border-top: 1px #B2B2B2 solid;
+	width: 90%;
+	margin: 0 auto;
+}
+#footer-left-asset {
+	float: left;
+}
+#footer-right-asset {
+	float: right;
+}
