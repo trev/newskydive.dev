@@ -7,7 +7,6 @@
 
 	<title>Skydive Australia</title>
 	
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 	
 	<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
